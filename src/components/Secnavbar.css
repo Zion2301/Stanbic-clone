@@ -1,0 +1,87 @@
+.navbarTwo {
+    background-color: #0033a1;
+    color: white;
+    padding-left: 160px;
+    padding-right: 160px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow:  0px 0px 3px grey;
+}
+
+.logoNav {
+    display: flex;
+    align-items: center;
+}
+
+.logoName {
+    font-size: 25px;
+}
+
+.logo {
+     width: 80px;
+}
+
+.products {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.search {
+    font-size: 110px;
+    padding: 20px;
+}
+
+.man {
+    font-size: 50px;
+}
+.links {
+    display: flex;
+    gap: 20px;
+}
+
+.sign {
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.signDiv {
+    background-color: #0089ff;
+    text-align: center;
+    padding: 30px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+@media screen and (max-width: 1200px){
+    .navbarTwo {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media screen and (max-width: 895px){
+     .links {
+        display: none;
+     }
+
+     .signDiv {
+        padding: 10px;
+     }
+
+     .search {
+        font-size: 70px;
+     }
+
+     .sign {
+        display: none;
+     }
+}
+
+@media screen and (max-width: 370px){
+    .logoName {
+        font-size: 20px;
+    }
+}

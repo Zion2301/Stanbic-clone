@@ -1,0 +1,19 @@
+.whiteBtn {
+    color: #0062e1;
+    background-color: white;
+    font-size: 14px;
+    border: none;
+    padding: 15px;
+    max-width: 300px;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: 0.2s;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.whiteBtn:hover {
+    cursor: pointer;
+    background-color: #0062e1;
+    color: white;
+}

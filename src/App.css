@@ -1,0 +1,119 @@
+    .mainGrid {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 160px;
+    padding-right: 160px;
+    display: flex;
+    gap: 20px;
+}
+body {
+    background-color: #eeeeee;
+}
+
+.cards {
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-top: 100px;
+}
+
+.solution {
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.rateguides {
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-top: 130px;
+}
+
+.ratehead {
+    font-weight: 500;
+    color: #1a314d;
+    margin-bottom: 20px;
+}
+
+.view {
+    color: #0062e1;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    word-spacing: 2px;
+}
+
+.headers {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.threecards {
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-top: 80px;
+}
+
+.latest {
+    font-weight: lighter;
+}
+
+.thecards {
+    margin-top: 25px;
+    display: flex;
+    gap: 30px;
+}
+
+@media screen and (max-width: 1200px){
+
+    * {
+        overflow-x: hidden;
+    }
+    .mainGrid {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .cards, .rateguides, .threecards {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 890px){
+    .mainGrid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 700px){
+    .thecards {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (max-width: 370px){
+     .mainGrid {
+        grid-template-columns: repeat(1, 1fr);
+     }
+
+     .ratehead {
+        font-size: 20px;
+     }
+}

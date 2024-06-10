@@ -1,0 +1,50 @@
+.contacttwo {
+    padding-left: 160px;
+    padding-right: 160px;
+    position: relative;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.twohead {
+    font-weight: lighter;
+    color: #1a314d;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.playstore {
+    width: 35%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.app {
+    position: absolute;
+        right: 160px;
+        top: -80px;
+        padding: 0;
+}
+
+
+@media screen and (max-width: 1200px){
+    .contacttwo {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .app {
+        right: 40px;
+    }
+}
+
+@media screen and (max-width: 890px){
+    .app {
+        display: none;
+    }
+
+    .twohead {
+        font-size: 18px;
+    }
+}

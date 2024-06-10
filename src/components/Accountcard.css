@@ -1,0 +1,141 @@
+* {
+    font-family: sans-serif;
+}
+
+.mainCard {
+    margin-left: 160px;
+    margin-top: 100px;
+    background-color: white;
+    position: relative;
+    width: 40%;
+    padding: 40px;
+    border: 1px solid grey;
+    border-radius: 8px;
+}
+
+.maincontent {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.tag {
+    width: auto;
+    min-width: 100px;
+    position: absolute;
+    left: 0;
+    top: 0%;
+    transform: translate(0, -50%);
+    font-size: 11px;
+    line-height: 22px;
+    color: #fff;
+    padding: 0 25px 0 12px;
+    display: inline-block;
+    overflow: hidden;
+    z-index: 70;
+    border-top-left-radius: 12px;
+    background: linear-gradient(151deg, #0033AA 0%, #0062E1 100%);
+    transform-origin: 100% 0;
+    /* transform: skew(-30deg); */
+}
+
+.grow {
+    position: absolute;
+    top: -26px;
+    right: 35px;
+    height: 86px;
+    z-index: 70;
+    transition: all .3s ease
+}
+
+.small {
+    width: 80px;
+    height: 2px;
+    background: #ffb94f;
+    background: -moz-linear-gradient(-45deg, #ff5a00 0%, #ffb94f 100%);
+    background: -webkit-linear-gradient(-45deg, #ff5a00 0%, #ffb94f 100%);
+    background: linear-gradient(135deg, #ff5a00 0%, #ffb94f 100%);
+    display: block;
+}
+
+.moreaccount {
+    color: #1a314d;
+    font-size: 17px;
+    margin-bottom: 25px;
+    max-width: 100%;
+}
+
+.savings {
+    font-weight: lighter;
+}
+
+.compare {
+    display: flex;
+    gap: 200px;
+}
+
+.tiny {
+    font-size: 10px;
+    color: #5c6c80;
+}
+
+.tick {
+    text-align: right;
+}
+
+.checkcompare {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+.indicator {
+    /* position: absolute;
+    top: 2px;
+    left: 0; */
+    height: 20px;
+    width: 20px;
+    background: #fff;
+    border: 1px solid #5c6c80;
+    border-radius: 4px;
+}
+
+.controlcheckbox {
+    text-align: right;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+    align-items: center;
+    color: rgb(26, 49, 77);
+}
+
+.compare {
+    margin-bottom: 70px;
+}
+
+@media screen and (max-width: 1200px){
+    .mainCard {
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 890px){
+      .compare {
+        gap: 50px;
+      }
+
+      .moreaccount {
+        font-size: 13px;
+      }
+
+      .savings {
+        font-size: 20px;
+      }
+}
+
+@media screen and (max-width: 735px){
+    .mainCard {
+        width: 100%;
+        margin-right: 20px;
+    }
+}

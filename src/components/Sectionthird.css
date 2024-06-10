@@ -1,0 +1,28 @@
+.thirdSection {
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-top: 160px;
+    background: linear-gradient(151deg, #0033AA 0%, #0062E1 100%);
+    color: white;
+    text-align: center;
+    padding: 40px;
+    border-radius: 9px;
+}
+
+.miniSec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.governance {
+    font-weight: lighter;
+}
+
+@media screen and (max-width: 1200px){
+    .thirdSection {
+        margin-left: 20px;
+        margin-right: 20px
+    }
+}

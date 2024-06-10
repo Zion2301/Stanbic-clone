@@ -1,0 +1,17 @@
+.eachCard {
+    border: 1px solid rgb(181, 181, 181);
+    padding: 30px;
+    padding-bottom: 80px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.text {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.cardicon {
+    font-size: 30px;
+    color: #0062e1;
+}

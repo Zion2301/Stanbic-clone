@@ -1,0 +1,70 @@
+.sectionone {
+    background: linear-gradient(45deg, #0033a1, black);
+    color: white;
+    width: 100%;
+    display: flex;
+}
+
+.head {
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+.leftSection {
+    width: 40%;
+    padding-left: 160px;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.describe {
+    line-height: 1.5;
+}
+
+.btn {
+    color: white;
+    background-color: #0062e1;
+    font-size: 14px;
+    border: none;
+    padding: 15px;
+    max-width: 300px;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #0033a1;
+}
+
+.imageDiv {
+    width: 60%;
+}
+
+.imageman {
+    width: 100%;
+}
+
+
+
+@media screen and (max-width: 1200px){
+    .leftSection {
+        padding-left: 30px;
+    }
+}
+
+@media screen and (max-width: 890px){
+     .sectionone {
+        display: flex;
+        flex-direction: column;
+     }
+
+     .leftSection, .imageDiv {
+        width: 100%;
+     }
+}

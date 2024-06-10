@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.navbar {
+    display: flex;
+    padding-left: 160px;
+    padding-right: 160px;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.morespecial {
+    background-color: #0033a1;
+    padding-top: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.special {
+   color: white;
+   text-decoration: none;
+   font-size: 13px;
+}
+
+.other {
+    text-decoration: none;
+   font-size: 12px;
+   color: black;
+}
+
+.leftLinks {
+    display: flex;
+    gap: 15px;
+    
+}
+
+.secondLinks {
+    display: flex;
+    gap: 15px;
+    
+}
+
+.miniDiv {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.image {
+    width: 30px;
+}
+
+.other {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+@media screen and (max-width: 1200px){
+    .navbar {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .leftLinks {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 370px){
+     .navbar {
+        display: none;
+     }
+}

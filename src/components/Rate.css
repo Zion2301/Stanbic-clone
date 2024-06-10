@@ -1,0 +1,44 @@
+.firstrate {
+    color: #0062e1;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.rate {
+    border-top: 1px solid rgb(198, 198, 198);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+}
+
+.othrs {
+    display: flex;
+    gap: 200px;
+}
+
+.down {
+    color: #0062e1;
+    background-color: white;
+    font-size: 60px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 890px){
+    .rate {
+        gap: 50px;
+    }
+}
+
+@media screen and (max-width: 735px){
+    .rate {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 520px){
+    .firstrate, .secondrate, .download, .date, .filetype {
+        font-size: 13px;
+    }
+}

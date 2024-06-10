@@ -1,0 +1,41 @@
+.defaulters {
+    margin-top: 150px;
+    margin-left: 160px;
+    margin-right: 160px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.defaultText {
+    width: 60%;
+}
+
+.pta {
+    font-weight: lighter;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.ptatext {
+    line-height: 1.4;
+}
+
+@media screen and (max-width: 1200px){
+    .defaulters {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .defaulters {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .defaultText {
+        width: 100%;
+    }
+
+}

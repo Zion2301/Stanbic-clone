@@ -1,0 +1,87 @@
+.sectionTwo {
+    background: linear-gradient(151deg, #0033AA 0%, #0062E1 100%);
+    color: white;
+    width: 100%;
+    display: flex;
+    gap: 350px;
+    align-items: center;
+}
+
+.leftSide {
+    width: 50%;
+    padding-left: 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.rightSide {
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-right: 160px;
+    gap: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.eachDiv {
+    background-color: white;
+    border: none;
+    text-align: center;
+    padding: 38px;
+    padding-bottom: 80px;
+    font-size: 19px;
+    border-radius: 10px;
+}
+
+.innerTxt {
+    color: rgb(101, 101, 101);
+}
+
+.solutions {
+    font-weight: lighter;
+}
+
+.bills {
+    color: black;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 1200px){
+    .leftSide {
+        padding-left: 30px;
+    }
+    .rightSide {
+        padding-right: 30px;
+    }
+}
+
+@media screen and (max-width: 890px){
+    .sectionTwo {
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 700px){
+      .sectionTwo {
+        flex-direction: column;
+        margin-left: 20px;
+        padding: 20px;
+        border-radius: 9px;
+      }
+
+      .leftSide, .rightSide {
+        width: 100%;
+      }
+
+      .rightSide {
+        padding: 20px;
+      }
+}
+
+@media screen and (max-width: 370px){
+       .rightSide {
+           grid-template-columns: repeat(1, 1fr);
+       }
+}

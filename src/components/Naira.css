@@ -1,0 +1,65 @@
+.nairadiv {
+    margin-left: 160px;
+    margin-right: 160px;
+    background: linear-gradient(151deg, #0033AA 0%, #0062E1 100%);
+    margin-top: 100px;
+    color: white;
+    display: flex;
+    border-radius: 9px;
+}
+
+.leftNaira {
+     width: 40%;
+     padding: 30px;
+     display: flex;
+     flex-direction: column;
+     gap: 15px;
+}
+
+.nairahead {
+    font-weight: lighter;
+    font-size: 28px;
+    line-height: 1.3;
+}
+
+.enaira {
+    width: 100%;
+    height: 355px;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+}
+
+.nairaright {
+    width: 60%;
+}
+
+.nairatxt {
+    line-height: 1.4;
+}
+
+@media screen and (max-width: 1200px){
+    .nairadiv {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 890px){
+    .nairadiv {
+        flex-direction: column;
+    }
+
+    .leftNaira, .nairaright {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 370px){
+    .nairahead {
+        font-size: 20px;
+    }
+
+    .nairatxt {
+        font-size: 13px;
+    }
+}
